@@ -6,6 +6,66 @@
   <component name="ChangeListManager">
     <list default="true" id="e564a17f-3a6e-4fdf-b107-72c9f89b917c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collection/com/HashMapClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collection/com/HashSetClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collection/com/LinkListArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collection/com/NodeS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collection/com/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collection/com/TreeSetExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collection/com/VectorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collection/com/myQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collection/com/myStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/DynamicArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/DynamicArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/LinkedListD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/LinkedListDDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/LinkedListU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/LinkedListUDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/NodeD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/OneDArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/QueueArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/QueueArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/QueueDArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/QueueDArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/QueueLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/QueueLinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/StackArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/StackArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/StackDArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/StackDArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/StackLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/StackLinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/TwoDArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/hash/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/hash/HashTableArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/ds/hash/HashTableArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/graph/BFSGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/graph/BFSGraphDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/graph/DFSGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/graph/DFSGraphDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/graph/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/graph/adjList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/search/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/search/DataSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/search/InterploationSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/search/LinearSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/sort/BubbleSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/sort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/sort/QuickSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/sort/SelectionSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tree/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tree/BSTDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/DSA_Prep.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/Hello.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +83,45 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JPTL1fTVb4JsXJqVkIM2iTfU1F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.maths.Reverse" />
+      <module name="DSA_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.maths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Reverse" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
