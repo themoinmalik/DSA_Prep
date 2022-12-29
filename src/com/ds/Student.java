@@ -1,4 +1,4 @@
-package com.ds;
+package src.com.ds;
 
 public class Student {
 String name;

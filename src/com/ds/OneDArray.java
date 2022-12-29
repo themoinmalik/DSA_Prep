@@ -1,4 +1,4 @@
-package com.ds;
+package src.com.ds;
 
 public class OneDArray {
 
@@ -26,7 +26,4 @@ public class OneDArray {
 	}
 		
 	}
-	
-	
-
 }

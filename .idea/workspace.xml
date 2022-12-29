@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e564a17f-3a6e-4fdf-b107-72c9f89b917c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/maths/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maths/Palindrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ds/OneDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ds/OneDArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Palindrom">
+  <component name="RunManager" selected="Application.Implement1D">
+    <configuration name="Implement1D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.arrays1D.Implement1D" />
+      <module name="DSA_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.arrays1D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Palindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.maths.Palindrom" />
       <module name="DSA_Prep" />
@@ -71,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Implement1D" />
         <item itemvalue="Application.Palindrom" />
         <item itemvalue="Application.Reverse" />
       </list>
