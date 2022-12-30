@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e564a17f-3a6e-4fdf-b107-72c9f89b917c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/arrays1D/Implement1D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/arrays1D/Implement1D.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/com/ds/OneDArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/com/ds/OneDArray.class" afterDir="false" />
-    </list>
+    <list default="true" id="e564a17f-3a6e-4fdf-b107-72c9f89b917c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
