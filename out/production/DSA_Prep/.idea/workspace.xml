@@ -8,6 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSA_Prep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSA_Prep.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays1D/SlidingWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays1D/Sequence1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,8 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.TwoSum">
+}</component>
+  <component name="RunManager" selected="Application.SlidingWindows">
     <configuration name="Implement1D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.arrays1D.Implement1D" />
       <module name="DSA_Prep" />
@@ -89,6 +94,19 @@
     </configuration>
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.arrays1D.TwoSum" />
+      <module name="DSA_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.arrays1D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlidingWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.arrays1D.SlidingWindows" />
       <module name="DSA_Prep" />
       <extension name="coverage">
         <pattern>
