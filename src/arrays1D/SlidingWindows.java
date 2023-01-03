@@ -6,7 +6,7 @@ public class SlidingWindows {
 
         int[] arr = new int[]{1,1,0,1,1,1,0,0,1,1,1,1,0};
         int b= 1;
-        int ans  = maxOnes(arr, b);
+        int ans  = maxOnes(arr, b);  // 1 repeating...
         System.out.println(ans);
     }
 

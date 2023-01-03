@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/string/uniqueString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindows/MaxSumOfSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindows/MaxSumOfSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays1D/SlidingWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays1D/SlidingWindows.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Urilify">
+  <component name="RunManager" selected="Application.MaxSumOfSubArray">
     <configuration name="BackSpacing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.string.BackSpacing" />
       <module name="DSA_Prep" />
@@ -60,38 +61,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxSumOfSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.MaxSumOfSubArray" />
+      <module name="DSA_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.SlidingWindows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParmutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.string.ParmutationOfString" />
       <module name="DSA_Prep" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.string.uniqueString" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SlidingWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.arrays1D.SlidingWindows" />
-      <module name="DSA_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.arrays1D.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.arrays1D.TwoSum" />
-      <module name="DSA_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.arrays1D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,18 +115,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSumOfSubArray" />
         <item itemvalue="Application.Urilify" />
         <item itemvalue="Application.ParmutationOfString" />
         <item itemvalue="Application.uniqueString" />
         <item itemvalue="Application.BackSpacing" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e564a17f-3a6e-4fdf-b107-72c9f89b917c" name="Changes" comment="" />
+      <changelist id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="" />
       <created>1671978658893</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
