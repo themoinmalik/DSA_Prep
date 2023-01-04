@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindows/MaxSumOfSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindows/MaxSumOfSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays1D/SlidingWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays1D/SlidingWindows.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -16,7 +16,7 @@ public class MaxSumOfSubArray {
         int j=0;
         int max = 0;
 
-        while (j<windSize) {
+        while (j<arr.length) {
 
             sum = sum + arr[j];
 

@@ -5,11 +5,11 @@ public class WaterContainerProblem {
     public static void main(String[] args) {
 
         int[] arr = new int[]{21,5,7,54,21,12,12};
-        int maxArea = waterproblem(arr);
+        int maxArea = waterProblem(arr);
         System.out.println(maxArea);
     }
 
-    private static int waterproblem(int[] arr) {
+    private static int waterProblem(int[] arr) {
 
         int maxArea = Integer.MIN_VALUE;
         int beg = 0;
