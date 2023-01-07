@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,13 +43,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxSumOfSubArray">
-    <configuration name="BackSpacing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.string.BackSpacing" />
+  <component name="RunManager" selected="Application.FirstNegativeNumInSubArray">
+    <configuration name="FirstNegativeNumInSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.FirstNegativeNumInSubArray" />
       <module name="DSA_Prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.string.uniqueString" />
+          <option name="PATTERN" value="src.SlidingWindows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstNegativeNumInSubArray" />
         <item itemvalue="Application.MaxSumOfSubArray" />
         <item itemvalue="Application.Urilify" />
         <item itemvalue="Application.ParmutationOfString" />
         <item itemvalue="Application.uniqueString" />
-        <item itemvalue="Application.BackSpacing" />
       </list>
     </recent_temporary>
   </component>
@@ -131,5 +129,31 @@
       <updated>1671978658893</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindows/MaxSumOfSubArray.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindows/MaxSumOfSubArray.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindows/MaxSumOfSubArray.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindows/MaxSumOfSubArray.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
