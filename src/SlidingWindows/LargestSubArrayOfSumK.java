@@ -24,7 +24,7 @@ public class LargestSubArrayOfSumK {
             sum = sum+a[j];
 
             if (sum == k) {
-                max  = Math.max(max,j-i+1);
+                max  = Math.max(max,j-i+1);     // use Math.min for minimum size of subArray
                 sum = sum-a[i];
                 i++;
             }
@@ -33,11 +33,6 @@ public class LargestSubArrayOfSumK {
                     sum = sum-a[i];
                     i++;
                 }
-            }
-            if (sum == k) {
-                win_size[ind++] = j-i+1;
-                sum = sum-a[i];
-                i++;
             }
         }
 
