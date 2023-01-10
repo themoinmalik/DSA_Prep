@@ -4,8 +4,9 @@ public class LargestSubArrayOfSumK {
 
     public static void main(String[] args) {
 
-        int[] a = new int[]{4,1,1,1,2,3,5};
-        int k = 5; // sum.. =
+        int[] a = new int[]{2, 1, 4, 3, 2, 5};
+        int k = 7; // sum.. =
+
 
         int ans = largestSubArray(a,k);
         System.out.println(ans);
@@ -15,27 +16,26 @@ public class LargestSubArrayOfSumK {
     private static int largestSubArray(int[] a, int k) {
 
         int sum = 0;
-        int[] win_size = new int[a.length];
         int i = 0;
         int ind = 0;
-        int max = 0;
+        int min = Integer.MAX_VALUE;    // for max use MIn_Value
 
         for (int j =0 ;j<a.length;j++) {
             sum = sum+a[j];
 
-            if (sum == k) {
-                max  = Math.max(max,j-i+1);     // use Math.min for minimum size of subArray
-                sum = sum-a[i];
-                i++;
-            }
             if (sum>k) {
                 while (sum> k) {
                     sum = sum-a[i];
                     i++;
                 }
             }
+            if (sum == k) {
+                min  = Math.min(min,j-i+1);     // use Math.max for maximum size of subArray
+                sum = sum-a[i];
+                i++;
+            }
         }
 
-        return max;
+        return min;
     }
 }
