@@ -7,7 +7,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
     public static void main(String[] args) {
 
-        String str = "aababcbb";  // variable type..
+        String str = "moinmalikhellokhan";  // variable type..
 
         int ans = checkUniqueSubString(str);
         System.out.println(ans);
