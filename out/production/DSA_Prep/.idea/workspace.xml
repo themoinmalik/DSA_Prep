@@ -45,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LargestSubArrayOfSumK">
+  <component name="RunManager" selected="Application.LongestSubstringWithKUniqueCharacters">
     <configuration name="CountAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.CountAnagrams" />
       <module name="DSA_Prep" />
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.Test" />
+    <configuration name="LongestSubstringWithKUniqueCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.LongestSubstringWithKUniqueCharacters" />
       <module name="DSA_Prep" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringWithKUniqueCharacters" />
         <item itemvalue="Application.LargestSubArrayOfSumK" />
         <item itemvalue="Application.maxOfSubArray" />
         <item itemvalue="Application.FirstNegativeNumInSubArray" />
         <item itemvalue="Application.CountAnagrams" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>

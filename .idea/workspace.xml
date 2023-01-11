@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/LargestSubArrayOfSumK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/LargestSubArrayOfSumK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindows/LargestSubArrayOfSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindows/LargestSubArrayOfSumK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LargestSubArrayOfSumK">
+  <component name="RunManager" selected="Application.LongestSubstringWithKUniqueCharacters">
     <configuration name="CountAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.CountAnagrams" />
       <module name="DSA_Prep" />
@@ -87,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.Test" />
+    <configuration name="LongestSubstringWithKUniqueCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.LongestSubstringWithKUniqueCharacters" />
       <module name="DSA_Prep" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringWithKUniqueCharacters" />
         <item itemvalue="Application.LargestSubArrayOfSumK" />
         <item itemvalue="Application.maxOfSubArray" />
         <item itemvalue="Application.FirstNegativeNumInSubArray" />
         <item itemvalue="Application.CountAnagrams" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -203,34 +201,14 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWindows/LargestSubArrayOfSumK.java</url>
-          <line>6</line>
+          <url>file://$PROJECT_DIR$/src/SlidingWindows/LongestSubstringWithKUniqueCharacters.java</url>
+          <line>25</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWindows/LargestSubArrayOfSumK.java</url>
-          <line>7</line>
+          <url>file://$PROJECT_DIR$/src/SlidingWindows/LongestSubstringWithKUniqueCharacters.java</url>
+          <line>49</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWindows/LargestSubArrayOfSumK.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWindows/LargestSubArrayOfSumK.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWindows/LargestSubArrayOfSumK.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWindows/LargestSubArrayOfSumK.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
