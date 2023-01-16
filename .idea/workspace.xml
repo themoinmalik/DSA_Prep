@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,39 +46,39 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.findMaxConsecutiveOnes">
-    <configuration name="LargestSubArrayOfSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.LargestSubArrayOfSumK" />
-      <module name="DSA_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SlidingWindows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubstringWithKUniqueCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.LongestSubstringWithKUniqueCharacters" />
-      <module name="DSA_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SlidingWindows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TwoSum">
     <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.LongestSubstringWithoutRepeatingCharacters" />
       <module name="DSA_Prep" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.SlidingWindows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SlidingWindows.Test" />
+      <module name="DSA_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.SlidingWindows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.twoPointers.TwoSum" />
+      <module name="DSA_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.twoPointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.findMaxConsecutiveOnes" />
         <item itemvalue="Application.findLengthOfLongestSubstringWithSameLettersAfterReplacement" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
-        <item itemvalue="Application.LongestSubstringWithKUniqueCharacters" />
-        <item itemvalue="Application.LargestSubArrayOfSumK" />
       </list>
     </recent_temporary>
   </component>
@@ -217,8 +218,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/SlidingWindows/findMaxConsecutiveOnes.java</url>
-          <line>35</line>
+          <line>37</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/twoPointers/TwoSum.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/twoPointers/TwoSum.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/twoPointers/TwoSum.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/twoPointers/TwoSum.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/twoPointers/TwoSum.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
