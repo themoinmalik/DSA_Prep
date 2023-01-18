@@ -27,3 +27,7 @@ mostly focus on coding patterns.
 21. **Longest Common Substring**
 
 
+
+
+
+![image](https://user-images.githubusercontent.com/64272314/213103470-4414b84f-b3ea-453e-988e-92e9d4d0f5f5.png)
