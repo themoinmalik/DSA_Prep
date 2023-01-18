@@ -1,5 +1,8 @@
 package src.twoPointers;
 
+
+// finding the minimum diffrence of three arrays element.
+
 public class minOfThreeArrays {
 
     public static void main(String[] args) {
