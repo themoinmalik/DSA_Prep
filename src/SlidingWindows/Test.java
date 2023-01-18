@@ -8,43 +8,39 @@ public class Test {
 
     public static void main(String[] args) {
 
-        int[] in = new int[]{2,3,4,5,6,7,8,9};
-        int t = 8;
 
-        int[] ans = checkAns(in,t);
-//        for (int k =0;k<ans.length-1;k++) {
-//            System.out.println(Arrays.toString(ans));
-//        }
+        int[] arr = new int[]{-5,1,2,-6,9};
+        int k = 2;
 
+        int[] ans = checkAns(arr,k);
         System.out.println(Arrays.toString(ans));
+
+
     }
 
-    public static  int[] checkAns(int[] in, int t) {
+    public static int[] checkAns(int[] arr, int k) {
 
+        int[] negNum = new int[arr.length - k + 1];
+        int ind = 0;
+        int i = 0;
 
-        int i=0;
-        int sum = 0;
-        int j=in.length-1;
-        while ( j>i) {
-            sum = in[i]+in[j];
+        for (int j = 0;j<arr.length;j++) {
 
-            if ( sum > t) {
-                j--;
-            }
+            if (j-i+1 == k) {
 
-            if (sum < t) {
+                if (arr[i] < 0) {
+                    negNum[ind++] = arr[i];
+                }
+                if (arr[j] < 0) {
+                    negNum[ind++] =  arr[j];
+                }
                 i++;
-            }
 
-            if (sum == t) {
-                return new int[]{i,j};
             }
 
         }
 
-        return null;
+        return negNum;
 
     }
-
-
 }
