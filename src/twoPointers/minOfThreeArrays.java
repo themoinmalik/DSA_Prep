@@ -21,7 +21,6 @@ public class minOfThreeArrays {
 
     private static int checkMinDiff(int[] a, int[] b, int[] c) {
 
-
         int i=0;
         int j = 0;
         int k = 0;
@@ -39,8 +38,6 @@ public class minOfThreeArrays {
             } else if (a[i] > b[j]) {
                 j++;
             }
-
-
         }
 
         return ans;
