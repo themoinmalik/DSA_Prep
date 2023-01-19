@@ -1,7 +1,7 @@
 package src.twoPointers;
 
 
-// finding the minimum diffrence of three arrays element.
+// finding the minimum difference of three arrays element.
 
 public class minOfThreeArrays {
 
