@@ -5,7 +5,7 @@ public class FindDuplicates {
     public static void main(String[] args) {
 
         int[] arr = new int[]{1, 4, 4, 10, 10, 15, 20};
-        int target = 15;
+        int target = 20;
 
         int ans = checkDup(arr,target);
        for (int i = 0;i<ans;i++) {
@@ -21,6 +21,7 @@ public class FindDuplicates {
 
         int right = n-1;
         int count = 0;
+        int position = 0;
 
 
         while (left<= right) {
@@ -33,8 +34,7 @@ public class FindDuplicates {
             }
             if (arr[mid] > target) {
                 right = mid-1;
-            }
-            if (arr[mid] < target)  {
+            } else {
                 left = mid+1;
             }
 
