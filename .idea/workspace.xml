@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="19 jan" />
+    <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="19 jan">
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/FindDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindows/Test.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +50,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindDuplicates">
-    <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.BinarySearch.FindDuplicates" />
+  <component name="RunManager" selected="Application.FindOccurrence">
+    <configuration name="FindOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.BinarySearch.FindOccurrence" />
       <module name="DSA_Prep" />
       <extension name="coverage">
         <pattern>
@@ -53,6 +60,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GFG" />
+      <module name="DSA_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="smallestDiffOfTwounSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.twoPointers.smallestDiffOfTwounSortedArray" />
-      <module name="DSA_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.twoPointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindDuplicates" />
+        <item itemvalue="Application.FindOccurrence" />
+        <item itemvalue="Application.GFG" />
         <item itemvalue="Application.RemoveDuplicate2" />
         <item itemvalue="Application.RemoveDuplicate" />
         <item itemvalue="Application.WaterContainer" />
-        <item itemvalue="Application.smallestDiffOfTwounSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -296,18 +297,18 @@
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/FindDuplicates.java</url>
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java</url>
           <line>18</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/FindDuplicates.java</url>
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java</url>
           <line>42</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/FindDuplicates.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java</url>
+          <line>26</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
