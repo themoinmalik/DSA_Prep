@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="19 jan">
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/FindDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindows/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/BinarySearch/FindOccurrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/BinarySearch/FindOccurrence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindOccurrence">
+  <component name="RunManager" selected="Application.FindMinInRotatedArray">
+    <configuration name="FindMinInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.BinarySearch.FindMinInRotatedArray" />
+      <module name="DSA_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.BinarySearch.FindOccurrence" />
       <module name="DSA_Prep" />
@@ -71,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.twoPointers.RemoveDuplicate" />
+    <configuration name="PreviousNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.BinarySearch.PreviousNumber" />
       <module name="DSA_Prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.twoPointers.*" />
+          <option name="PATTERN" value="src.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,26 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaterContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.twoPointers.WaterContainer" />
-      <module name="DSA_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.twoPointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindOccurrence" />
-        <item itemvalue="Application.GFG" />
+        <item itemvalue="Application.FindMinInRotatedArray" />
         <item itemvalue="Application.RemoveDuplicate2" />
-        <item itemvalue="Application.RemoveDuplicate" />
-        <item itemvalue="Application.WaterContainer" />
+        <item itemvalue="Application.PreviousNumber" />
+        <item itemvalue="Application.GFG" />
+        <item itemvalue="Application.FindOccurrence" />
       </list>
     </recent_temporary>
   </component>
@@ -310,6 +307,26 @@
           <url>file://$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java</url>
           <line>26</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/CheckFloor.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/CheckFloor.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/CheckFloor.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/PreviousNumber.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
