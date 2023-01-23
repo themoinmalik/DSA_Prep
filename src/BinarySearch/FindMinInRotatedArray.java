@@ -4,7 +4,7 @@ public class FindMinInRotatedArray {
 
     public static void main(String[] args) {
 
-        int[] a = new int[]{5, 7, 9, 1, 3};
+        int[] a = new int[]{5, 7, 9, 2, 3};
 
         // find min of the array...
 
@@ -24,9 +24,8 @@ public class FindMinInRotatedArray {
             mid = (i+j)/2;
 
             if (a[mid] < a[mid+1] && a[mid] < a[mid-1]) {
-                min = a[mid];
+                min = a[mid];      // number of times array is rotated ->  min = mid;
                 return min;
-
             }
 
             if (a[mid] > a[mid+1]) {
@@ -35,7 +34,6 @@ public class FindMinInRotatedArray {
                 j = mid-1;
             }
         }
-
         return min;
     }
 
