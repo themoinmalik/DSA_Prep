@@ -6,7 +6,7 @@ public class FindMinInRotatedArray {
 
         int[] a = new int[]{5, 7, 9, 2, 3};
 
-        // find min of the array...
+        // Find min of the array...
 
         int ans = checkMin(a);
         System.out.println(ans);
@@ -36,6 +36,4 @@ public class FindMinInRotatedArray {
         }
         return min;
     }
-
-
 }

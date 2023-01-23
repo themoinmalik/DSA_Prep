@@ -11,7 +11,6 @@ class Test
 
         for (int i = 0; i < n - 2; ++i)
         {
-
             if ((i - 1 >= 0) && A[i - 1] == 1 &&
                     A[i + 1] == 1 &&
                     A[i] == 0)
@@ -19,7 +18,6 @@ class Test
                 A[i + 1] = 0;
                 cnt++;
             }
-
         }
 
         return cnt;
