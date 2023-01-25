@@ -6,11 +6,9 @@ public class LL {
     private Node tail;
     private int size;
 
-
     public LL(int size) {
         this.size = size;
     }
-
 
     public void insertFirst(int data) {
         Node node = new Node(data);
@@ -20,10 +18,20 @@ public class LL {
         if (tail == null) {
             tail = head;
         }
-
         size = size+1;
     }
 
+    public void insertLast(int data) {
+        Node node = new Node(data);
+
+        // check if  list is empty
+        if (head == null) {
+            head = node;
+        }else {
+            tail.next = node;
+        }
+        tail = node;
+    }
 
     public void display() {
         Node temp = head;
@@ -48,7 +56,6 @@ public class LL {
             this.data = data;
             this.next = next;
         }
-
     }
 
     public void main(String[] args) {
@@ -62,6 +69,5 @@ public class LL {
         n2.next = n3;
         n3.next = null;
     }
-
 
 }
