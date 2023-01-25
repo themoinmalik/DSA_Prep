@@ -4,28 +4,63 @@ public class LL {
 
     private Node head;
     private Node tail;
+    private int size;
 
-    int size;
 
     public LL(int size) {
         this.size = size;
     }
 
-    private class Node {
-        private int val;
-        private Node next;
 
-        public Node(int val) {
-            this.val = val;
+    public void insertFirst(int data) {
+        Node node = new Node(data);
+        node.next = head;
+        head = node;
+
+        if (tail == null) {
+            tail = head;
         }
 
+        size = size+1;
+    }
 
-        public Node(int val, Node next) {
-            this.val = val;
+
+    public void display() {
+        Node temp = head;
+
+        while (temp != null) {
+            System.out.println(temp.data+"->");
+            temp = temp.next;
+        }
+        System.out.println("END");
+    }
+
+    private class Node {
+
+        int data;
+        Node next;
+
+        public Node(int data) {
+            this.data = data;
+        }
+
+        public Node(int data, Node next) {
+            this.data = data;
             this.next = next;
         }
 
+    }
 
+    public void main(String[] args) {
+
+        Node n1 = new Node(10);
+        Node n2 = new Node(20);
+        Node n3 = new Node(30);
+
+        Node head = n1;
+        n1.next = n2;
+        n2.next = n3;
+        n3.next = null;
     }
 
 
