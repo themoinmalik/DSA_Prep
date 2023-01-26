@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="19 jan">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/BinarySearch/FindOccurrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/BinarySearch/FindOccurrence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindMinInRotatedArray">
-    <configuration name="FindMinInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.BinarySearch.FindMinInRotatedArray" />
-      <module name="DSA_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LL">
     <configuration name="FindOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.BinarySearch.FindOccurrence" />
       <module name="DSA_Prep" />
@@ -77,6 +65,19 @@
     <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GFG" />
       <module name="DSA_Prep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.linkedList.LL" />
+      <module name="DSA_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,7 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindMinInRotatedArray" />
+        <item itemvalue="Application.LL" />
         <item itemvalue="Application.RemoveDuplicate2" />
         <item itemvalue="Application.PreviousNumber" />
         <item itemvalue="Application.GFG" />

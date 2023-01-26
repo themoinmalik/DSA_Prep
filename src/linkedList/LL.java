@@ -6,6 +6,9 @@ public class LL {
     private Node tail;
     private int size;
 
+    public LL() {
+    }
+
     public LL(int size) {
         this.size = size;
     }
@@ -33,14 +36,31 @@ public class LL {
         tail = node;
     }
 
+
+    public void insert(int data, int index) {
+
+        if (index > size) {
+            System.out.println("The size of the list is " + size);;
+        }
+
+        Node prev = head;
+
+        for (int i = 0;i<index-1;i++) {
+            prev = prev.next;
+        }
+        Node newNode = new Node(data);
+        newNode.next = prev.next;
+        prev.next = newNode;
+    }
+
     public void display() {
         Node temp = head;
 
         while (temp != null) {
-            System.out.println(temp.data+"->");
+            System.out.print(temp.data+"->");
             temp = temp.next;
         }
-        System.out.println("END");
+        System.out.print("END");
     }
 
     private class Node {
@@ -57,17 +77,4 @@ public class LL {
             this.next = next;
         }
     }
-
-    public void main(String[] args) {
-
-        Node n1 = new Node(10);
-        Node n2 = new Node(20);
-        Node n3 = new Node(30);
-
-        Node head = n1;
-        n1.next = n2;
-        n2.next = n3;
-        n3.next = null;
-    }
-
 }
