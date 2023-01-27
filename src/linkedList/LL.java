@@ -21,7 +21,7 @@ public class LL {
         if (tail == null) {
             tail = head;
         }
-        size = size+1;
+        size = size + 1;
     }
 
     public void insertLast(int data) {
@@ -30,34 +30,54 @@ public class LL {
         // check if  list is empty
         if (head == null) {
             head = node;
-        }else {
+        } else {
             tail.next = node;
         }
         tail = node;
+        size++;
     }
 
 
     public void insert(int data, int index) {
 
         if (index > size) {
-            System.out.println("The size of the list is " + size);;
+            System.out.println("The size of the list is " + size);
+            ;
         }
 
         Node prev = head;
-
-        for (int i = 0;i<index-1;i++) {
+        for (int i = 0; i < index - 1; i++) {
             prev = prev.next;
         }
         Node newNode = new Node(data);
         newNode.next = prev.next;
         prev.next = newNode;
+        size++;
+    }
+
+    public void deleteFirst() {
+        int data = head.data;
+        head = head.next;
+        System.out.println("\n" + "Deleted ->" + data);
+        size--;
+    }
+
+    public void deleteLast() {
+        int data = tail.data;
+        Node prevNode = head;
+        for (int i = 0; i < size - 2; i++) {
+            prevNode = prevNode.next;
+        }
+        tail = prevNode;
+        tail.next = null;
+        size--;
     }
 
     public void display() {
         Node temp = head;
 
         while (temp != null) {
-            System.out.print(temp.data+"->");
+            System.out.print(temp.data + "->");
             temp = temp.next;
         }
         System.out.print("END");
