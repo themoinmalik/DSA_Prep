@@ -42,11 +42,9 @@ public class LL {
 
         if (index > size) {
             System.out.println("The size of the list is " + size);
-            ;
         }
-
         Node prev = head;
-        for (int i = 0; i < index - 1; i++) {
+        for (int i = 0; i < index-1; i++) {
             prev = prev.next;
         }
         Node newNode = new Node(data);
@@ -55,14 +53,14 @@ public class LL {
         size++;
     }
 
-    public void deleteFirst() {
+    public int deleteFirst() {
         int data = head.data;
         head = head.next;
-        System.out.println("\n" + "Deleted ->" + data);
         size--;
+        return data;
     }
 
-    public void deleteLast() {
+    public int deleteLast() {
         int data = tail.data;
         Node prevNode = head;
         for (int i = 0; i < size - 2; i++) {
@@ -71,6 +69,20 @@ public class LL {
         tail = prevNode;
         tail.next = null;
         size--;
+        return data;
+    }
+
+    public int delete(int index) {
+
+        Node prevNode = head;
+
+        for (int i =0; i<index-1;i++) {
+            prevNode = prevNode.next;
+        }
+        prevNode.next = prevNode.next.next;
+        int data = prevNode.next.data;
+        size--;
+        return data;
     }
 
     public void display() {

@@ -7,13 +7,14 @@ public class Main {
         LL list = new LL();
 
         list.insertFirst(10);
-        list.insertLast(20);
+        list.insertFirst(23);
         list.insertFirst(78);
-        list.insert(34,3);
+        list.insertLast(20);
+        list.insert(34, 3);
         list.display();
         list.deleteFirst();
         list.display();
-        list.deleteLast();
+        list.delete(1);
         list.display();
     }
 }
