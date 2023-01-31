@@ -6,7 +6,6 @@ public class DoubleLL {
     Node tail;
     int size;
 
-
     public void insertFirst(int data) {
 
         Node newNode = new Node(data);  // by default next and prev is null...
@@ -30,6 +29,7 @@ public class DoubleLL {
         }
         last.next = newNode;
         newNode.prev = last;
+        size++;
 
     }
 
@@ -39,7 +39,6 @@ public class DoubleLL {
 
         Node prev = head;
 
-
         for (int i = 0; i < index - 1; i++) {
             prev = prev.next;
         }
@@ -47,6 +46,29 @@ public class DoubleLL {
         prev.next = newNode;
         newNode.prev = prev;
         size++;
+
+    }
+
+    // Deleting node from DLL
+
+    public void deleteFirst(Node del) {
+
+        if (head == null || del == null) {
+            return;
+        }
+
+        if (head == del) {
+            head = head.next;
+        }
+        if (del.next != null) {    // not the last node.
+            del.next.prev = del.prev;
+        }
+
+        if (del.prev != null) {    // not the first node
+            del.prev.next = del.next;
+        }
+
+        return;
 
     }
 

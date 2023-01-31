@@ -22,12 +22,12 @@ public class Main {
 
         dlist.insertFirst(10);
         dlist.insertFirst(20);
-        dlist.display();
         dlist.insertLast(30);
         dlist.insertLast(90);
-        dlist.display();
         dlist.insert(50,3);
         dlist.display();
+//        dlist.deleteFirst(dlist.head);  // first node
+//        dlist.display();
 
     }
 }
