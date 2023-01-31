@@ -30,7 +30,6 @@ public class DoubleLL {
         last.next = newNode;
         newNode.prev = last;
         size++;
-
     }
 
     public void insert(int data, int index) {

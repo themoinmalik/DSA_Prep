@@ -18,16 +18,26 @@ public class Main {
 //        list.display();
 
 
-        DoubleLL dlist = new DoubleLL();
+//        DoubleLL dlist = new DoubleLL();
+//
+//        dlist.insertFirst(10);
+//        dlist.insertFirst(20);
+//        dlist.insertLast(30);
+//        dlist.insertLast(90);
+//        dlist.insert(50,3);
+//        dlist.display();
+//        dlist.deleteFirst(90);  // first node
+//        dlist.display();
 
-        dlist.insertFirst(10);
-        dlist.insertFirst(20);
-        dlist.insertLast(30);
-        dlist.insertLast(90);
-        dlist.insert(50,3);
-        dlist.display();
-        dlist.deleteFirst(90);  // first node
-        dlist.display();
+
+
+        CLL cll = new CLL();
+
+       cll.insertFirstLast(10);
+       cll.insertFirstLast(40);
+       cll.insertFirstLast(30);
+       cll.insertFirstLast(20);
+        cll.display();
 
     }
 }
