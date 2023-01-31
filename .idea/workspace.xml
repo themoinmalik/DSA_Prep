@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="28 jan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/DoubleLL$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/DoubleLL$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/DoubleLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/DoubleLL.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DoubleLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DoubleLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/CLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/CLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/linkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -418,6 +416,21 @@
           <url>file://$PROJECT_DIR$/src/linkedList/DoubleLL.java</url>
           <line>102</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/Main.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/CLL.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/CLL.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
