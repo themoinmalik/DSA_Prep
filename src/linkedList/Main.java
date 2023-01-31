@@ -26,8 +26,8 @@ public class Main {
         dlist.insertLast(90);
         dlist.insert(50,3);
         dlist.display();
-//        dlist.deleteFirst(dlist.head);  // first node
-//        dlist.display();
+        dlist.deleteFirst(90);  // first node
+        dlist.display();
 
     }
 }

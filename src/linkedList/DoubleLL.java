@@ -45,13 +45,25 @@ public class DoubleLL {
         newNode.next = prev.next;
         prev.next = newNode;
         newNode.prev = prev;
+
+        if (newNode.next != null) {
+            newNode.next.prev = newNode;
+        }
+
         size++;
 
     }
 
     // Deleting node from DLL
 
-    public void deleteFirst(Node del) {
+    public void deleteFirst(int data) {
+
+
+        Node del = head;
+
+        while (del.data != data) {
+            del = del.next;
+        }
 
         if (head == null || del == null) {
             return;
