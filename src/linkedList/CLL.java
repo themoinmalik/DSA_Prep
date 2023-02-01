@@ -2,7 +2,6 @@ package src.linkedList;
 
 public class CLL {
 
-
     Node head;
     Node tail;
     int size;
@@ -13,7 +12,6 @@ public class CLL {
     }
 
     public void insertFirstLast(int data) {
-
 
         Node node = new Node(data);
 
@@ -47,7 +45,6 @@ public class CLL {
 
         Node temp = head;
 
-
         if (temp != null) {
             do {
                 System.out.print(temp.data + " -> ");
@@ -57,7 +54,6 @@ public class CLL {
 
         System.out.println("HEAD");
     }
-
 
     class Node {
 
