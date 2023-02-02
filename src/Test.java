@@ -149,6 +149,7 @@ class Test {
         Node node = head;
 
         HashSet<Integer> set = new HashSet<>();
+        Node prev = null;
 
         while (node != null) {
 
@@ -156,7 +157,10 @@ class Test {
                 node = node.next;
             } else {
                 set.add(node.data);
+                prev = node;
             }
+
+            node = node.next;
 
         }
 
