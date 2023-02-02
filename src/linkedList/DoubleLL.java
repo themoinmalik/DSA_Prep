@@ -57,7 +57,6 @@ public class DoubleLL {
 
     public void deleteFirst(int data) {
 
-
         Node del = head;
 
         while (del.data != data) {
@@ -74,13 +73,10 @@ public class DoubleLL {
         if (del.next != null) {    // not the last node.
             del.next.prev = del.prev;
         }
-
         if (del.prev != null) {    // not the first node
             del.prev.next = del.next;
         }
-
         return;
-
     }
 
     public void display() {
