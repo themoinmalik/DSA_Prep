@@ -1,6 +1,8 @@
 package src;
 
 import java.lang.*;
+import java.util.HashMap;
+import java.util.HashSet;
 
 
 class Test {
@@ -91,6 +93,75 @@ class Test {
 
     }
 
+    public void deleteNode(int data) {
+
+        Node node = head;
+
+        while (node != null) {
+
+            if (node.next.data == data) {
+                node.next = node.next.next;
+                break;
+            }
+            node = node.next;
+        }
+        size--;
+
+    }
+
+    public void nthNode(int index) {
+
+        if (index >= size) {
+            return;
+        }
+
+        Node node = head;
+
+        for (int i =0;i<index;i++) {
+            node = node.next;
+        }
+        System.out.println(node.data);
+
+    }
+
+    public void nthFromLast(int index) {
+
+        int count = 0;
+
+        Node node = head;
+        while (node!=null) {
+            count++;
+            node = node.next;
+        };
+
+        Node node1 = head;
+
+        for (int i =0;i<count-size+1;i++) {
+            node1 = node1.next;
+        }
+        System.out.println(node1.data);
+
+    }
+
+
+    public void delDup() {
+
+        Node node = head;
+
+        HashSet<Integer> set = new HashSet<>();
+
+        while (node != null) {
+
+            if (set.contains(node.data)) {
+                node = node.next;
+            } else {
+                set.add(node.data);
+            }
+
+        }
+
+    }
+
     public void display() {
 
         Node node = head;
@@ -116,6 +187,7 @@ class Main {
         test.insertFirst(20);
         test.insertFirst(30);
         test.display();
+        test.nthNode(2);
         test.insertAfterNode(20, 50);
         test.display();
         boolean ans1 = test.searchElement(10);
@@ -123,9 +195,12 @@ class Main {
         boolean ans  = test.searchElement(90);
         System.out.println(ans);
         test.sizeLL();
-        test.reverseLL();
+//        test.reverseLL();
         test.display();
-
+        test.deleteNode(20);
+        test.display();
+        test.nthNode(3);
+        test.nthFromLast(2);
 
     }
 }
