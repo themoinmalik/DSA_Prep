@@ -4,18 +4,22 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        LL list = new LL();
-//
-//        list.insertFirst(10);
-//        list.insertFirst(23);
-//        list.insertFirst(78);
-//        list.insertLast(20);
-//        list.insert(34, 3);
-//        list.display();
+        LL list = new LL();
+
+        list.insertFirst(10);
+        list.insertFirst(23);
+        list.insertFirst(78);
+        list.insertLast(20);
+        list.insert(34, 3);
+        list.display();
 //        list.deleteFirst();
 //        list.display();
 //        list.delete(1);
 //        list.display();
+
+
+        list.reverseLL();
+        list.display();
 
 
 //        DoubleLL dlist = new DoubleLL();
@@ -28,17 +32,18 @@ public class Main {
 //        dlist.display();
 //        dlist.deleteFirst(90);  // first node
 //        dlist.display();
+//
 
 
-        CLL cll = new CLL();
-
-        cll.insertFirstLast(10);
-        cll.insertFirstLast(40);
-        cll.insertFirstLast(30);
-        cll.insertFirstLast(20);
-        cll.display();
-        cll.delete(20);
-        cll.display();
+//        CLL cll = new CLL();
+//
+//        cll.insertFirstLast(10);
+//        cll.insertFirstLast(40);
+//        cll.insertFirstLast(30);
+//        cll.insertFirstLast(20);
+//        cll.display();
+//        cll.delete(20);
+//        cll.display();
 
     }
 }

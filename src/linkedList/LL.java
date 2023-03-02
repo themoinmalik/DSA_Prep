@@ -85,6 +85,24 @@ public class LL {
         return data;
     }
 
+
+    public void reverseLL() {
+
+        Node node = head;
+        Node prev = null;
+
+        while (node != null) {
+
+            Node next = node.next;
+            node.next = prev;
+            prev = node;
+            node = next;
+
+        }
+        head = prev;
+    }
+
+
     public void display() {
         Node temp = head;
 
@@ -92,13 +110,14 @@ public class LL {
             System.out.print(temp.data + "->");
             temp = temp.next;
         }
-        System.out.print("END");
+        System.out.print("END \n");
     }
 
     private class Node {
 
         int data;
         Node next;
+        Node prev = null;
 
         public Node(int data) {
             this.data = data;
