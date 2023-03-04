@@ -37,6 +37,24 @@ public class LL {
         size++;
     }
 
+    public void reverseList() {
+
+        Node currentNode = head;
+        Node prevNode = null;
+
+        while (currentNode != null) {
+
+            Node next = currentNode.next;
+            currentNode.next = prevNode;
+            prevNode = currentNode;
+            currentNode = next;
+
+        }
+
+        head = prevNode;
+
+    }
+
 
     public void insert(int data, int index) {
 
