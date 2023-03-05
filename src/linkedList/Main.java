@@ -18,7 +18,8 @@ public class Main {
 //        list.display();
 
 
-        list.reverseLL();
+//        list.reverseLL();
+        list.reverseList();
         list.display();
 
 
@@ -44,6 +45,11 @@ public class Main {
 //        cll.display();
 //        cll.delete(20);
 //        cll.display();
+
+
+
+
+
 
     }
 }
