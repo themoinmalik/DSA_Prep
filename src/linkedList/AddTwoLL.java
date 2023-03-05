@@ -20,7 +20,7 @@ class Node {
 
 public class AddTwoLL {
 
-    private Node reverseLL(Node l1, Node l2) {
+    public Node addListData(Node l1, Node l2) {
 
         Node dummy = new Node();
         Node temp = dummy;
@@ -43,6 +43,7 @@ public class AddTwoLL {
             sum = sum + carry;
             carry = sum / 10;
             Node l3 = new Node(sum % 10);
+            temp.next = l3;
             temp = temp.next;
 
 

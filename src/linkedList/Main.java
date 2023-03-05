@@ -46,8 +46,16 @@ public class Main {
 //        cll.delete(20);
 //        cll.display();
 
+        LL l2 = new LL();
+
+        l2.insertFirst(10);
+        l2.insertFirst(23);
+        l2.insertFirst(78);
+        l2.insertLast(20);
+        l2.insert(34, 3);
 
 
+        AddTwoLL addTwoLL = new AddTwoLL();
 
 
 

@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="31 jan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/LL$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/LL$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/LL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/LL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/AddTwoLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/AddTwoLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/linkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
