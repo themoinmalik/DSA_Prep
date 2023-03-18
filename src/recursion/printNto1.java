@@ -3,11 +3,8 @@ package src.recursion;
 public class printNto1 {
 
     public static void main(String[] args) {
-
         int n = 7;
         printNto1Num(n);
-
-
     }
 
     private static void printNto1Num(int n) {
