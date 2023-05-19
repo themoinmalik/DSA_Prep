@@ -40,6 +40,10 @@ public class StreamPrep {
         System.out.println(sqr);
 
 
+        System.out.println("moin malik ");
+
+
+
 
     }
 
