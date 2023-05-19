@@ -3,6 +3,7 @@ package src.collection.com;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 public class StreamPrep {
 
@@ -28,7 +29,16 @@ public class StreamPrep {
         System.out.println(avg);
 
 
-        //
+        // square filter > 100 and average of nubers .
+
+        double sqr = list.stream()
+                .map(a->a*a)
+                .filter(a->a>10)
+                .mapToInt(a->a)
+                .average().getAsDouble();
+
+        System.out.println(sqr);
+
 
 
     }
