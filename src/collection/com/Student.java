@@ -10,6 +10,7 @@ public class Student  implements Comparable<Student> {
 		 
 		@Override
 		public int compareTo(Student o) {
+			System.out.println("Hello world");
 			 if(this.age==o.age)
 				 return 0;
 			 else if(this.age> o.age)
