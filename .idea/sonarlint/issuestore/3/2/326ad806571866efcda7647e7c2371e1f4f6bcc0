@@ -1,0 +1,8 @@
+
+c
+java:S3655"FCall "and.isPresent()" or "!and.isEmpty()" before accessing the value.(ïêå8éç…1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ïêå8¾è…1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(–¥ìC8Äè…1
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(úæ£¬üÿÿÿÿ8Èè…1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Íè…1
