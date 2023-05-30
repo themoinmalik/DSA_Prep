@@ -63,7 +63,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StreamPrep">
+  <component name="RunManager" selected="Application.SimplePattern">
     <configuration name="FactorialOfN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.recursion.FactorialOfN" />
       <module name="DSA_Prep" />
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.linkedList.MergeSortedLL" />
+    <configuration name="SimplePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.pwskils.patterns.SimplePattern" />
       <module name="DSA_Prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.linkedList.*" />
+          <option name="PATTERN" value="src.pwskils.patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimplePattern" />
         <item itemvalue="Application.StreamPrep" />
         <item itemvalue="Application.printNto1" />
         <item itemvalue="Application.GCD" />
         <item itemvalue="Application.FactorialOfN" />
-        <item itemvalue="Application.MergeSortedLL" />
       </list>
     </recent_temporary>
   </component>
