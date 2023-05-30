@@ -30,9 +30,9 @@ public class StreamPrep {
         // square filter > 100 and average of nubers .
 
         double sqr = list.stream()
-                .map(a->a*a)
-                .filter(a->a>10)
-                .mapToInt(a->a)
+                .map(a -> a * a)
+                .filter(a -> a > 10)
+                .mapToInt(a -> a)
                 .average().getAsDouble();
 
         System.out.println(sqr);
