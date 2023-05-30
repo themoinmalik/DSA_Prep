@@ -63,17 +63,15 @@ public class StreamPrep {
 
         System.out.println(a);
 
-
-    }
-
-    public void patternPrint() {
-        for (int i=0;i<-5;i++)
+        for (int i=0;i<=5;i++)
         {
             for (int j = 1;j<=i;j++) {
-                System.out.println(j+"");
+                System.out.print(" * ");
             }
+            System.out.println(" ");
         }
-        System.out.println();
+
+
 
     }
 
