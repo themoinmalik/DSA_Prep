@@ -57,8 +57,23 @@ public class StreamPrep {
 
         System.out.println(odd);
 
+        int a=10;
+
+        a-=3;
+
+        System.out.println(a);
 
 
+    }
+
+    public void patternPrint() {
+        for (int i=0;i<-5;i++)
+        {
+            for (int j = 1;j<=i;j++) {
+                System.out.println(j+"");
+            }
+        }
+        System.out.println();
 
     }
 
