@@ -1,6 +1,6 @@
 package src.pwskils.patterns;
 
-public class SimplePattern {
+public class Pattern {
 
     public static void main(String[] args) {
 
@@ -71,9 +71,6 @@ public class SimplePattern {
             }
             System.out.println(" ");
         }
-
-
-
 
 
     }
