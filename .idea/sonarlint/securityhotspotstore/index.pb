@@ -17,5 +17,3 @@ F
 src/recursion/GCD.java,a/5/a541a791b132122efacf32e378995372515ea4d8
 O
 src/collection/com/Student.java,f/9/f9a71ea10703bfdae4ab025a0720969e9089c35b
-R
-"src/collection/com/StreamPrep.java,3/2/326ad806571866efcda7647e7c2371e1f4f6bcc0
