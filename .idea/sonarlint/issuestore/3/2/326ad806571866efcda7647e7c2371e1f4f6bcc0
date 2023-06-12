@@ -1,0 +1,15 @@
+
+c
+java:S3655"FCall "and.isPresent()" or "!and.isEmpty()" before accessing the value.(οκε8ιη…1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(οκε8Ύθ…1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(–¥μC8Δθ…1
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(ϊζ£¬όÿÿÿÿ8Θθ…1
+o
+java:S6204/"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨Ή8χ΄µΚ‰1
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(ζÒπ‡ωÿÿÿÿ8‚µµΚ‰1
+o
+java:S62048"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨Ή8†µµΚ‰1
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(Φμ¤Ξ8‰µµΚ‰1
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(ζ¨¤ψÿÿÿÿ8µµΚ‰1
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ύÿÿÿÿ8 µµΚ‰1
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(ήÒ—όÿÿÿÿ8¥µµΚ‰1

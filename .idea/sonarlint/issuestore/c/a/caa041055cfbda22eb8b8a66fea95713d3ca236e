@@ -1,0 +1,24 @@
+
+^
+java:S4973."<Strings and Boxed types should be compared using "equals()".(áİ ­ùÿÿÿÿ8ã€şŠ1
+T
+java:S1854("7Remove this useless assignment to local variable "sh2".(¡â“–8ô€şŠ1
+S
+java:S1854#"6Remove this useless assignment to local variable "s2".(‚µÙ8ô€şŠ1
+X	java:S125"<This block of commented-out lines of code should be removed.(ƒØÈ‡8÷ÈíŠ1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB8ßŸÈíŠ1
+L
+java:S2201"*The return value of "concat" must be used.(¯ì«Ãüÿÿÿÿ8‰ ÈíŠ1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB8 ÈíŠ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(“Ÿ÷Ÿüÿÿÿÿ8¤ ÈíŠ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(“Ÿ÷Ÿüÿÿÿÿ8¨ ÈíŠ1
+D
+java:S1481#"'Remove this unused "s2" local variable.(‚µÙ8ı€şŠ1
+=
+java:S2129'" Remove this "String" constructor(Á£é8ŒşŠ1
+=
+java:S2129(" Remove this "String" constructor(¡â“–8şŠ1
+E
+java:S1481("(Remove this unused "sh2" local variable.(¡â“–8şŠ1
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(áİ ­ùÿÿÿÿ8şŠ1
+X	java:S125("<This block of commented-out lines of code should be removed.(¡â“–8şŠ1
