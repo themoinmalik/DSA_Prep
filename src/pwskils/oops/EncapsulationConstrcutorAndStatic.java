@@ -1,11 +1,14 @@
 package src.pwskils.oops;
 
 public class EncapsulationConstrcutorAndStatic {
+
+
+    // excapsuation. 
     
     int i = 10;
 
     int helloWorld(int x){
-        this.i = x +1;
+        this.i = x +1;         // define context, or scope
         return i;
 
     }
@@ -25,7 +28,9 @@ public class EncapsulationConstrcutorAndStatic {
     public static void main(String[] args) {
         
         EncapsulationConstrcutorAndStatic env = new EncapsulationConstrcutorAndStatic();   
-        // there is always default constrcitor. 
+        // there is always default constrcitor.   
+        // which is automatically created when we crate object of that class. 
+
 
         System.out.println(env.i);   // i = 10 . 
 
@@ -34,6 +39,9 @@ public class EncapsulationConstrcutorAndStatic {
         System.out.println(env.i);   // i = 1.. value updated.
 
         env.staticMethdod();
+
+
+        
 
 
     }
