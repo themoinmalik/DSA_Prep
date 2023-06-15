@@ -31,19 +31,21 @@ public class StringClass {
 
         // a little more.
 
-        String s1 = "moin"; // store in string constant pool. duploicatyes not allowed.
+        String s1 = "moin"; // store in string constant pool. duplicates not allowed.
         String s2 = "moin"; // s2 refer to the same string constant pool; // no new object created.
 
         // when we use new keyword , data store in Heap memory. // diuplcates allowed.
 
         String sh1 = new String("moin");
-        String sh2 = new String("moin"); // duplcates allowed. refere to the the memory;
+        String sh2 = new String("moin"); // duplcates allowed. refere to the the memory;  
 
         // let see.
         
-        // compare /
+        // compare 
 
-        System.out.println(s1 == sh1);
+        System.out.println(s1 == sh2);   // false.  
+
+        System.out.println(sh1 == sh2);    // true.
 
     }
 

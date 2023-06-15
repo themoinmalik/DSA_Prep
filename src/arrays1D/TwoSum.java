@@ -53,4 +53,10 @@ public class TwoSum {
         return null;
 
     }
+
+
+
+    // two sum....
+
+    arr.length();
 }
