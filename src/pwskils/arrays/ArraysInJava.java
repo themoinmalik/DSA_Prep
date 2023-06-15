@@ -18,8 +18,5 @@ public class ArraysInJava {
         int arr2[][] = new int[2][2];
 
 
-        // sout  ter
-
-
     }
 }
