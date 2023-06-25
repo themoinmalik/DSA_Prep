@@ -24,13 +24,11 @@ public class EncapsulationConstrcutorAndStatic {
         System.out.println("Hello i am static methdod.");
     }
 
-
     public static void main(String[] args) {
         
         EncapsulationConstrcutorAndStatic env = new EncapsulationConstrcutorAndStatic();   
         // there is always default constrcitor.   
         // which is automatically created when we crate object of that class. 
-
 
         System.out.println(env.i);   // i = 10 . 
 
@@ -40,8 +38,8 @@ public class EncapsulationConstrcutorAndStatic {
 
         env.staticMethdod();
 
+        System.out.print("" == "");
 
-        
 
 
     }
