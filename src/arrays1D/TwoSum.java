@@ -57,6 +57,4 @@ public class TwoSum {
 
 
     // two sum....
-
-    arr.length();
 }
