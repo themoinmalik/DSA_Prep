@@ -13,6 +13,8 @@ public class Assignment1 {
         for (int i = 0; i < arr.length; i++) {
             map.put(arr[i], map.getOrDefault(arr[i],0 )+1);        
         }
+
+        // 
         for (int num : map.keySet()) {
           if (map.containsKey(num) && map.get(num) == 1) {          
             max = Math.max(num, max);   
