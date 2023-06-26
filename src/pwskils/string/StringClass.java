@@ -8,13 +8,7 @@ public class StringClass {
 
     public static String solution(String s) {
 
-        s = s.trim();
-
-        List<String> list = Arrays.asList(s.split("\\s+"));
-
-        Collections.reverse(list);
-
-        return String.join(" ", list);
+        
 
     }
 
