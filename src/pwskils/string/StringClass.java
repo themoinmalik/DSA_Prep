@@ -1,15 +1,10 @@
 package src.pwskils.string;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class StringClass {
 
     public static String solution(String s) {
-
-        
-
+        return s;
     }
 
     public static void main(String[] args) {
