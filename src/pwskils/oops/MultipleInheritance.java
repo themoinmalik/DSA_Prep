@@ -20,7 +20,7 @@ class C {
     }
 }
 
-class D extends A, B, C {
+class D extends A {
 
 }
 

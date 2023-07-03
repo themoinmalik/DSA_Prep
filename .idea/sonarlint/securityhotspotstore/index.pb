@@ -17,11 +17,3 @@ F
 src/recursion/GCD.java,a/5/a541a791b132122efacf32e378995372515ea4d8
 O
 src/collection/com/Student.java,f/9/f9a71ea10703bfdae4ab025a0720969e9089c35b
-S
-#src/pwskils/string/StringClass.java,c/a/caa041055cfbda22eb8b8a66fea95713d3ca236e
-T
-$src/pwskils/oops/ClassAndObject.java,3/7/370bace462059794d05bbfde30c7a9c880d6198b
-R
-"src/collection/com/StreamPrep.java,3/2/326ad806571866efcda7647e7c2371e1f4f6bcc0
-T
-$src/pwskils/arrays/ArraysInJava.java,2/9/293eb71980debfd794061925ae112e5304b87c8b
