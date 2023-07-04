@@ -17,22 +17,17 @@ public class ArraysInJava {
 
     public static int[][] solution(int[][] arr) {
 
-        // transpose... 
+        // transpose...
+
+        int[][] matrix = new int[arr.length][arr.length];
 
         for (int i = 0; i < arr.length; i++) {
-            for (int j = i+1; j < arr.length; j++) {
-                swap(arr[j][i],arr[i][j]);        
+            for (int j = i + 1; j < arr.length; j++) {
+                matrix[i][j] = arr[j][i];
             }
-            
+            //reverse the row; HEllo@prityam can you pls approve this mr.
         }
-        
-        return arr;
-    }
 
-
-    public static void swap(int a, int b) {
-        int temp = a;
-        a = b;
-        b = temp;
+        return matrix;
     }
 }

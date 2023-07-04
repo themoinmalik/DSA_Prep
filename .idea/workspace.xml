@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="31 jan">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/293eb71980debfd794061925ae112e5304b87c8b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/326ad806571866efcda7647e7c2371e1f4f6bcc0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/370bace462059794d05bbfde30c7a9c880d6198b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/caa041055cfbda22eb8b8a66fea95713d3ca236e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/9/293eb71980debfd794061925ae112e5304b87c8b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/326ad806571866efcda7647e7c2371e1f4f6bcc0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/7/370bace462059794d05bbfde30c7a9c880d6198b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/a/caa041055cfbda22eb8b8a66fea95713d3ca236e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/arrays/ArraysInJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/arrays/ArraysInJava.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pwskils/arrays/ArraysInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pwskils/arrays/ArraysInJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pwskils/oops/MultipleInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pwskils/oops/MultipleInheritance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
