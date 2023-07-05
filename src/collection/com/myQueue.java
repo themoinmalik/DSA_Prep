@@ -3,6 +3,7 @@ package collection.com;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
+import collection.com.Student;
 
 public class myQueue {
 
