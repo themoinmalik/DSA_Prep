@@ -36,7 +36,7 @@ public class EncapsulationConstrcutorAndStatic {
 
         System.out.println(env.i);   // i = 1.. value updated.
 
-        env.staticMethdod();
+        EncapsulationConstrcutorAndStatic.staticMethdod(); // no need to create object to call static methods. 
 
         System.out.print("" == "");
 

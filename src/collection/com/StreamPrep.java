@@ -31,7 +31,7 @@ public class StreamPrep {
 
         double sqr = list.stream()
                 .map(a -> a * a)
-                .filter(a -> a > 10)
+                .filter(a -> a > 100)
                 .mapToInt(a -> a)
                 .average().getAsDouble();
 
@@ -62,15 +62,6 @@ public class StreamPrep {
         a-=3;
 
         System.out.println(a);
-
-        for (int i=0;i<=5;i++)
-        {
-            for (int j = 1;j<=i;j++) {
-                System.out.print(" * ");
-            }
-            System.out.println(" ");
-        }
-
 
 
     }
