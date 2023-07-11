@@ -23,12 +23,8 @@ T
 $src/collection/com/HashSetClass.java,e/b/ebc1e9884983c4ae8788494773277c8604f84cc1
 V
 &src/collection/com/TreeSetExample.java,d/0/d0f4ae4da525a3fc9e7b58e31d358596f5697222
-W
-'src/pwskils/assingment/Assignment1.java,e/2/e2a21e654799e70343576bf71dcb87f46a39f278
 O
 src/collection/com/Student.java,f/9/f9a71ea10703bfdae4ab025a0720969e9089c35b
-T
-$src/pwskils/arrays/ArraysInJava.java,2/9/293eb71980debfd794061925ae112e5304b87c8b
 O
 src/collection/com/myStack.java,b/a/bad18b2838873120afc763b2bbbe00d19e88962c
 Y
