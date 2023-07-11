@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArraysInJava {
 
-    // Diagnal  summ...   
+    // Diagonal  sum...
     public static int[][] solution(int[][] matrix) {
 
         for (int i = 0; i < matrix.length; i++) {
@@ -43,8 +43,8 @@ public class ArraysInJava {
 
     public static void main(String[] args) {
         // int A[][] = {{1,1,1},{1,0,1},{1,1,1}};
-        // int[][] A = {{1,2,3},{4,5,6},{7,8,9}};
-        int[][] A = {{0,1}};
+         int[][] A = {{1,2,3},{4,5,6},{7,8,9}};
+//        int[][] A = {{0,1}};
         int[][] ans = solution(A);
         System.out.println(Arrays.deepToString(ans));
     }
