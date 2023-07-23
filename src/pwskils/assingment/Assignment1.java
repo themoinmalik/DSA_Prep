@@ -2,30 +2,41 @@ package src.pwskils.assingment;
 
 import java.util.HashMap;
 
-
 public class Assignment1 {
+    public static int solution(int[] arr, int t) {
 
-    public static int solution(int[] arr) {
+      int i = 0;
+      int j = arr.length-1;
 
-        HashMap<Integer,Integer > map = new HashMap<Integer,Integer>();
-        int max = Integer.MIN_VALUE;
+      while(i <=j) {
+        int mid = (i+j)/2;
 
-        for (int i = 0; i < arr.length; i++) {
-            map.put(arr[i], map.getOrDefault(arr[i],0 )+1);        
+        if(arr[mid] == t) {
+          return mid;
         }
 
-        // 
-        for (int num : map.keySet()) {
-          if (map.containsKey(num) && map.get(num) == 1) {          
-            max = Math.max(num, max);   
-          } 
+        if (arr[i] <= arr[mid]) {  // left array ... 4
+          if (t >= arr[i] && t < arr[mid]) {
+            j = mid-1;
+          }else {
+            i = mid+1;
+          }
+          
+        }else {
+          if (t > arr[mid] && t <= arr[j]) {
+            i = mid+1;
+          }else {
+            j = mid-1;
+          }
         }
-        return max;        
+      }
+      return -1;       
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[] {4,6,8,8,2,9,9,9,9,10,10,4};
-        int ans = solution(arr);
+        int[] arr = {4, 5, 6, 7, 0, 1, 2};
+        int t = 0;
+        int ans = solution(arr,t);
         System.out.println(ans);    
     }
 }

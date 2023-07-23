@@ -5,16 +5,130 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="31 jan">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/293eb71980debfd794061925ae112e5304b87c8b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2a21e654799e70343576bf71dcb87f46a39f278" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/9/293eb71980debfd794061925ae112e5304b87c8b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/2/e2a21e654799e70343576bf71dcb87f46a39f278" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/arrays/ArraysInJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/arrays/ArraysInJava.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pwskils/arrays/ArraysInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pwskils/arrays/ArraysInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/collection/com/HashMapClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/collection/com/HashSetClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/collection/com/LinkListArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/collection/com/NodeS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/collection/com/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/collection/com/TreeSetExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/collection/com/VectorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/collection/com/myQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/collection/com/myStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/DynamicArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/DynamicArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/LinkedListD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/LinkedListDDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/LinkedListU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/LinkedListUDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/NodeD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/QueueArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/QueueArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/QueueDArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/QueueDArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/QueueLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/QueueLinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/StackArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/StackArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/StackDArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/StackDArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/StackLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/StackLinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/TwoDArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/hash/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/hash/HashTableArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/ds/hash/HashTableArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/graph/BFSGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/graph/BFSGraphDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/graph/DFSGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/graph/DFSGraphDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/graph/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/graph/adjList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/search/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/search/DataSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/search/InterploationSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/search/LinearSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/sort/BubbleSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/sort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/sort/QuickSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/sort/SelectionSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/tree/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/tree/BSTDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/com/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/BinarySearch/CheckFloor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/BinarySearch/FindMinInRotatedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/BinarySearch/FindOccurrence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/BinarySearch/PreviousNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/CountAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/FirstNegativeNumInSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/LargestSubArrayOfSumK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/LongestSubstringWithKUniqueCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/MaxSumOfSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/findLengthOfLongestSubstringWithSameLettersAfterReplacement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/findMaxConsecutiveOnes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/SlidingWindows/maxOfSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/Test$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/arrays1D/Implement1D$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/arrays1D/Implement1D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/arrays1D/SlidingWindows.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/arrays1D/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/arrays1D/WaterContainerProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/collection/com/StreamPrep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/com/ds/OneDArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/com/ds/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/AddTwoLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/CLL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/CLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/DoubleLL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/DoubleLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/LL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/MergeSortedLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/linkedList/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/maths/Palindrom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/maths/Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/arrays/ArraysInJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/assingment/Assignment1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/assingment/retrun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/oops/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/oops/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/oops/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/oops/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/oops/ClassAndObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/oops/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/oops/EncapsulationConstrcutorAndStatic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/oops/Inheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/oops/MultipleInheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/oops/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/patterns/Pattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/pwskils/string/StringClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/recursion/FactorialOfN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/recursion/GCD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/recursion/printNto1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/string/BackSpacing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/string/ParmutationOfString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/string/ReverseOfString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/string/Urilify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/string/uniqueString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/twoPointers/RemoveDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/twoPointers/RemoveDuplicate2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/twoPointers/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/twoPointers/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/twoPointers/WaterContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/twoPointers/minOfThreeArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Prep/src/twoPointers/smallestDiffOfTwounSortedArray.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +182,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "moin",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseOfString">
+  <component name="RunManager" selected="Application.LenghtOfLastWord">
     <configuration name="ArraysInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.pwskils.arrays.ArraysInJava" />
       <module name="DSA_Prep" />
@@ -91,6 +208,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.pwskils.assingment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LenghtOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.string.LenghtOfLastWord" />
+      <module name="DSA_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +254,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.pwskils.string.StringClass" />
-      <module name="DSA_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.pwskils.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -148,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LenghtOfLastWord" />
         <item itemvalue="Application.ReverseOfString" />
         <item itemvalue="Application.ArraysInJava" />
         <item itemvalue="Application.Assignment1" />
         <item itemvalue="Application.StreamPrep" />
-        <item itemvalue="Application.StringClass" />
       </list>
     </recent_temporary>
   </component>
