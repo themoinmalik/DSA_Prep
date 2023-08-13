@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "July23",
+            "request": "launch",
+            "mainClass": "src.BinarySearch.July23",
+            "projectName": "DSA_Prep_7e50a3d1"
+        },
+        {
+            "type": "java",
             "name": "Assignment1",
             "request": "launch",
             "mainClass": "src.pwskils.assingment.Assignment1",
