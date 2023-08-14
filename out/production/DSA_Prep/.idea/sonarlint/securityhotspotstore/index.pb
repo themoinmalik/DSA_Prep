@@ -39,3 +39,11 @@ R
 "src/collection/com/StreamPrep.java,3/2/326ad806571866efcda7647e7c2371e1f4f6bcc0
 =
 src/Test.java,a/8/a862b92d10f810e224187403c322cb8e01f5e244
+O
+src/string/ReverseOfString.java,d/f/dfd037105dd4235792c697c82927b1b1908489db
+W
+'src/pwskils/assingment/Assignment1.java,e/2/e2a21e654799e70343576bf71dcb87f46a39f278
+T
+$src/pwskils/arrays/ArraysInJava.java,2/9/293eb71980debfd794061925ae112e5304b87c8b
+P
+ src/string/LenghtOfLastWord.java,a/0/a067af562540e7e86c1151a14c42c521165a1127

@@ -8,9 +8,11 @@ public class July23 {
 
 //  Find Target Indices After Sorting Array
 
-    public static List<Integer> solution(int[] arr, int t) {
+    public static int solution(int[] arr, int t) {
 
         // find the index of the numbers ...
+
+        return 0;
          
     }
 
@@ -18,7 +20,7 @@ public class July23 {
         int[] arr = {37,12,28,9,100,56,80,5,12};
         int target = 5;   
         // min element. 
-        List<Integer> ans = solution(arr, target);
+        int ans = solution(arr, target);
         System.out.println(ans);
     }    
 }
