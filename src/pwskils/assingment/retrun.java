@@ -5,17 +5,9 @@ import java.util.List;
 
 public class retrun {
 
-    private static List<Integer> solution(int[] arr, int target) {
+    private static int solution(int[] arr, int target) {
 
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[0].length; j++) {
-
-                if
-                
-            }
-            
-        }
-      
+      return 0;
     }
 
     public static void main(String[] args) {
@@ -23,7 +15,7 @@ public class retrun {
         int[] arr = { 1, 2, 5, 2, 3 };
         int target = 2;
 
-        List<Integer> ans = solution(arr, target);
+        int ans = solution(arr, target);
         System.out.println(ans);
 
     }

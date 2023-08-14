@@ -1,42 +1,39 @@
 package src.pwskils.assingment;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Assignment1 {
-    public static int solution(int[] arr, int t) {
+    public static int[] solution(int[] arr) {
 
-      int i = 0;
-      int j = arr.length-1;
+        // cyclic sort....
 
-      while(i <=j) {
-        int mid = (i+j)/2;
+        int i = 0;
 
-        if(arr[mid] == t) {
-          return mid;
+        while (i<arr.length) {
+            int correct = arr[i]-1;    // correct = arr[0]  if array start with 0;
+            if (arr[i] != arr[correct]) {
+                swap(arr, i , correct);
+            }else {
+                i++;
+            }
         }
+        return arr;
 
-        if (arr[i] <= arr[mid]) {  // left array ... 4
-          if (t >= arr[i] && t < arr[mid]) {
-            j = mid-1;
-          }else {
-            i = mid+1;
-          }
-          
-        }else {
-          if (t > arr[mid] && t <= arr[j]) {
-            i = mid+1;
-          }else {
-            j = mid-1;
-          }
-        }
-      }
-      return -1;       
+    }
+
+    public static void swap(int[] arr, int i, int c) {
+
+        int temp = arr[i];
+        arr[i] = arr[c];
+        arr[c] = temp;
+
     }
 
     public static void main(String[] args) {
-        int[] arr = {4, 5, 6, 7, 0, 1, 2};
-        int t = 0;
-        int ans = solution(arr,t);
-        System.out.println(ans);    
+        int[] arr = {4, 5, 6, 3, 7, 1, 2};
+        int t = 2;
+        int[] ans = solution(arr);
+        System.out.println(Arrays.toString(ans));
     }
 }
