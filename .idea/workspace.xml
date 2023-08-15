@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="31 jan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pwskils/assingment/Assignment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pwskils/assingment/CyclicSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <module name="DSA_Prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.pwskils.assingment.*" />
+          <option name="PATTERN" value="src.searchingSorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671978658893</updated>
       <workItem from="1691940016151" duration="3438000" />
-      <workItem from="1692025968845" duration="18516000" />
+      <workItem from="1692025968845" duration="19057000" />
     </task>
     <task id="LOCAL-00001" summary="19 jan">
       <created>1674120789037</created>
@@ -375,37 +374,37 @@
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java</url>
+          <url>file://$PROJECT_DIR$/src/searchingSorting/FindOccurrence.java</url>
           <line>18</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java</url>
+          <url>file://$PROJECT_DIR$/src/searchingSorting/FindOccurrence.java</url>
           <line>42</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/FindOccurrence.java</url>
+          <url>file://$PROJECT_DIR$/src/searchingSorting/FindOccurrence.java</url>
           <line>26</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/CheckFloor.java</url>
+          <url>file://$PROJECT_DIR$/src/searchingSorting/CheckFloor.java</url>
           <line>24</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/CheckFloor.java</url>
+          <url>file://$PROJECT_DIR$/src/searchingSorting/CheckFloor.java</url>
           <line>35</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/CheckFloor.java</url>
+          <url>file://$PROJECT_DIR$/src/searchingSorting/CheckFloor.java</url>
           <line>15</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/PreviousNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/searchingSorting/PreviousNumber.java</url>
           <line>23</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
@@ -470,12 +469,12 @@
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pwskils/assingment/CyclicSort.java</url>
+          <url>file://$PROJECT_DIR$/src/searchingSorting/CyclicSort.java</url>
           <line>18</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/pwskils/assingment/CyclicSort.java</url>
+          <url>file://$PROJECT_DIR$/src/searchingSorting/CyclicSort.java</url>
           <line>42</line>
           <properties class="src.pwskils.assingment.CyclicSort">
             <option name="EMULATED" value="true" />
