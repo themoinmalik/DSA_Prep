@@ -1,4 +1,4 @@
-package src.BinarySearch;
+package src.searchingSorting;
 
 public class PreviousNumber {
 
