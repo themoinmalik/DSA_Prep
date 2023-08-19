@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GOD",
+            "request": "launch",
+            "mainClass": "src.prep_extra.GOD",
+            "projectName": "DSA_Prep_7e50a3d1"
+        },
+        {
+            "type": "java",
+            "name": "printNto1",
+            "request": "launch",
+            "mainClass": "src.recursion.printNto1",
+            "projectName": "DSA_Prep_7e50a3d1"
+        },
+        {
+            "type": "java",
             "name": "July23",
             "request": "launch",
             "mainClass": "src.BinarySearch.July23",
