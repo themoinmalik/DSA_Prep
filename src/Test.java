@@ -199,6 +199,7 @@ class Main {
         boolean ans  = test.searchElement(90);
         System.out.println(ans);
         test.sizeLL();
+        test.sizeLL();
 //        test.reverseLL();
         test.display();
         test.deleteNode(20);

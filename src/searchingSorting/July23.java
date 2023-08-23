@@ -1,8 +1,4 @@
-package src.BinarySearch;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package src.searchingSorting;
 
 public class July23 {
 
