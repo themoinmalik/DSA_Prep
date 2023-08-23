@@ -1,19 +1,27 @@
 package src.recursion;
 
 public class FactorialOfN {
-    public static int getFact(int n) {
-        if (n  == 1) {
-            return 1;
-        }else {
-            return n * getFact(n-1);
-        }
-    }
+    
 
     public static void main(String[] args) {
-        int n = 7;
-        int ans = getFact(n);
+        int n = 13;
+        int ans = factorial(n);
         System.out.println(ans);
     }
+
+
+    public static int factorial(int n) {
+
+        //
+        if (n == 1) {
+            return n;
+        }
+        
+        return n*factorial(n-1);        
+                
+    }
+    
+    
 }
 
 

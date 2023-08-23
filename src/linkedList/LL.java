@@ -65,7 +65,7 @@ public class LL {
         for (int i = 0; i < index-1; i++) {
             prev = prev.next;
         }
-        Node newNode = new Node(data);
+        Node newNode = new Node(data); 
         newNode.next = prev.next;
         prev.next = newNode;
         size++;
@@ -131,19 +131,5 @@ public class LL {
         System.out.print("END \n");
     }
 
-    private class Node {
-
-        int data;
-        Node next;
-        Node prev = null;
-
-        public Node(int data) {
-            this.data = data;
-        }
-
-        public Node(int data, Node next) {
-            this.data = data;
-            this.next = next;
-        }
-    }
+  
 }
