@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HeightBT",
+            "request": "launch",
+            "mainClass": "src.tree.HeightBT",
+            "projectName": "DSA_Prep_7e50a3d1"
+        },
+        {
+            "type": "java",
             "name": "Prep",
             "request": "launch",
             "mainClass": "src.linkedList.Prep",
