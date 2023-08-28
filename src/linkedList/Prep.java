@@ -6,9 +6,11 @@ public class Prep {
     public static void main(String[] args) {
 
         List list = new List();
-        list.insertDataLast(12);
-        list.insertDataLast(10);
-        list.insertDataLast(20);
+        list.insertDataLast(2);
+        list.insertDataLast(4);
+        list.insertDataLast(6);
+        list.insertDataLast(8);
+        list.insertDataLast(7);
         list.display(list.head);
         list.insertFirst(30);
         list.display(list.head);
@@ -17,13 +19,17 @@ public class Prep {
         // Node head = list.reverseList(list.head);
         System.out.println("reversed");
         // list.display(head);
-        // int num = list.midNode(head);
-        // System.out.println(num);
+        System.out.println("mid node...");
+        int num = list.midNode(list.head);
+        System.out.println(num);
         boolean ans = list.findNode(20);
         System.out.println(ans);
         int ans1 = list.lenNodeRec(list.head);
         System.out.println(ans1);
-
+        // remove elment.... 
+        System.out.println("remove.... ");
+        Node node = list.removeElement(list.head, 6);
+        list.display(node);
         
     }
 
@@ -105,24 +111,19 @@ class List {
        return prev;
     }
 
-    // fuind mid node. 
-
+    // find mid node. 
     public int midNode(Node head) {
 
         // Node mid = null;
-        Node temp = head;
-        int len = 0;
-        while(temp!=null){
-            len = len+1;
-            
-        }
-        Node midNode = head;
+       Node fast_ptr = head;
+       Node slow_ptr = head;
 
-        for(int i = 0; i < len/2; i++){            
-            midNode = midNode.next;            
-        }
+       while (fast_ptr != null && fast_ptr.next!=null) {
 
-        return midNode.data;
+        fast_ptr = fast_ptr.next.next;
+        slow_ptr = slow_ptr.next;
+       }
+       return slow_ptr.data;
 
     }
 
@@ -164,6 +165,21 @@ class List {
 
         return  1+ lenNodeRec(head.next);
         
+    }
+
+    // remove lement in LL . 
+    public Node removeElement(Node head, int x){
+
+        while(head!=null){
+            if (head.data == x) {
+                head = head.next.next;
+            }else{
+                head = head.next;
+            }
+        }
+
+        return head;
+
     }
 
 }
