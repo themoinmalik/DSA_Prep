@@ -40,6 +40,15 @@ public class Prep {
 
         Node ans = list.mergeNode(list1, list2);
         list.display(ans);
+        //
+
+        // happy
+        int ans1 = list.sumSqr(19);
+        System.out.println("ans-> " + ans1);
+
+        // happy calling...
+        boolean ans2 = list.happyNum(19);
+        System.out.println("ans 2-> " + ans2);
 
 
     }
@@ -188,7 +197,7 @@ class List {
 
     }
 
-    // remove lement in LL .
+    // remove element in LL .
     public Node removeElement(Node head, int x) {
 
         while (head != null) {
@@ -264,32 +273,87 @@ class List {
 
     }
 
-    public boolean yes(Node head){
+    public int cycleLen(Node head){
 
         Node s,f;
         s = f = head;
+        int count = 0;
 
-        while(f != null && s != null){
-            if (s.data == f.data) {
-                return true;
-            }
+        while(f != null && f.next != null){
             s = s.next;
             f = f.next.next;
+            if (s.data == f.data) {
+                // calculate length of a cycle,....
+                Node temp = s;
+                do{
+                s= s.next;
+                count = count+1;
+                }while(s!=temp);
+            }
+            
         }
-        return false;
+        return 0;
 
     }
 
-}
 
-class Node {
+    // LL ||. 
+    public Node findStartCycle(Node head){
 
-    int data;
-    Node next;
+        Node slow,fast,entry;
+        slow = fast = entry = head;
 
-    Node(int data) {
-        this.data = data;
-        this.next = null;
+        while (fast!=null && fast.next!=null){
+
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast){
+                // same node.
+                while (entry!=slow){
+                    entry = entry.next;
+                    slow = slow.next;
+                }
+                return entry;
+            }
+
+        }
+        return  null;
+
+    }
+
+
+
+    // happy number
+    public boolean happyNum(int n){
+
+       int s = n;
+       int f = n;
+
+       do {
+           s = sumSqr(s);
+           f = sumSqr(sumSqr(f));
+       }while (s!=f);
+
+       if (s==1){
+           return true;
+       }
+       return false;
+
+
+    }
+
+    public int sumSqr(int n){
+
+        int rem = 0;
+        int sum = 0;
+
+        while (n>0){
+            rem = n%10;
+            sum = sum + rem*rem;
+            n = n/10;
+        }
+       return sum;
     }
 
 }
