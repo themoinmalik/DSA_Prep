@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HeightBT",
+            "request": "launch",
+            "mainClass": "src.tree.HeightBT",
+            "projectName": "DSA_Prep_7e50a3d1"
+        },
+        {
+            "type": "java",
+            "name": "Prep",
+            "request": "launch",
+            "mainClass": "src.linkedList.Prep",
+            "projectName": "DSA_Prep_7e50a3d1"
+        },
+        {
+            "type": "java",
+            "name": "FactorialOfN",
+            "request": "launch",
+            "mainClass": "src.recursion.FactorialOfN",
+            "projectName": "DSA_Prep_7e50a3d1"
+        },
+        {
+            "type": "java",
+            "name": "Print1toN",
+            "request": "launch",
+            "mainClass": "src.recursion.Print1toN",
+            "projectName": "DSA_Prep_7e50a3d1"
+        },
+        {
+            "type": "java",
+            "name": "ASCII",
+            "request": "launch",
+            "mainClass": "src.recursion.ASCII",
+            "projectName": "DSA_Prep_7e50a3d1"
+        },
+        {
+            "type": "java",
+            "name": "GOD",
+            "request": "launch",
+            "mainClass": "src.prep_extra.GOD",
+            "projectName": "DSA_Prep_7e50a3d1"
+        },
+        {
+            "type": "java",
+            "name": "printNto1",
+            "request": "launch",
+            "mainClass": "src.recursion.printNto1",
+            "projectName": "DSA_Prep_7e50a3d1"
+        },
+        {
+            "type": "java",
             "name": "July23",
             "request": "launch",
             "mainClass": "src.BinarySearch.July23",

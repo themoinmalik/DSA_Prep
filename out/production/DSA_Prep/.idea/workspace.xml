@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbf607e-34cf-467e-93c3-2ea9e7c65839" name="Changes" comment="31 jan">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/293eb71980debfd794061925ae112e5304b87c8b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a067af562540e7e86c1151a14c42c521165a1127" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dfd037105dd4235792c697c82927b1b1908489db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2a21e654799e70343576bf71dcb87f46a39f278" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/9/293eb71980debfd794061925ae112e5304b87c8b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/0/a067af562540e7e86c1151a14c42c521165a1127" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/f/dfd037105dd4235792c697c82927b1b1908489db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/2/e2a21e654799e70343576bf71dcb87f46a39f278" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA_Prep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSA_Prep.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/Prep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/Prep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +61,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -83,20 +99,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PreviousNumber">
-    <configuration name="ArraysInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.pwskils.arrays.ArraysInJava" />
-      <module name="DSA_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.pwskils.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Prep">
     <configuration name="Assignment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.pwskils.assingment.Assignment1" />
       <module name="DSA_Prep" />
@@ -116,6 +119,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.linkedList.Prep" />
+      <module name="DSA_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Prep" />
         <item itemvalue="Application.PreviousNumber" />
         <item itemvalue="Application.Assignment1" />
         <item itemvalue="Application.LenghtOfLastWord" />
         <item itemvalue="Application.ReverseOfString" />
-        <item itemvalue="Application.ArraysInJava" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +195,7 @@
       <workItem from="1691940016151" duration="3438000" />
       <workItem from="1692025968845" duration="19057000" />
       <workItem from="1692111267383" duration="2578000" />
+      <workItem from="1692371095862" duration="825000" />
     </task>
     <task id="LOCAL-00001" summary="19 jan">
       <created>1674120789037</created>
@@ -413,7 +430,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/searchingSorting/PreviousNumber.java</url>
-          <line>23</line>
+          <line>38</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
