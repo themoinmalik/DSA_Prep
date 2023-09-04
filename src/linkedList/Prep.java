@@ -146,7 +146,7 @@ class List {
     }
 
     // find mid node.
-    public int midNode(Node head) {
+    public Node midNode(Node head) {
 
         // Node mid = null;
         Node fast_ptr = head;
@@ -156,7 +156,8 @@ class List {
             fast_ptr = fast_ptr.next.next;
             slow_ptr = slow_ptr.next;
         }
-        return slow_ptr.data;
+        slow_ptr.next = null;
+        return slow_ptr;
 
     }
 
@@ -340,7 +341,6 @@ class List {
        }
        return false;
 
-
     }
 
     public int sumSqr(int n){
@@ -354,6 +354,52 @@ class List {
             n = n/10;
         }
        return sum;
+    }
+
+    // sort linked list....
+    public Node sortLL(Node head){
+
+        Node s, f;
+        s = f = head;
+        Node temp = null;
+
+        //find mid...
+        while (f!=null && f.next !=null){
+            temp = s;
+            s = s.next;
+            f = f.next.next;
+        }
+        temp.next = null;
+
+        // merge
+        Node left = sortLL(head);
+        Node right = sortLL(s);
+
+        //Start merging...
+        Node dummyHead = new Node();
+        Node tail = dummyHead;
+
+        while (left!=null&&right!=null){
+            if (left.data<right.data){
+                tail.next = left;
+                left = left.next;
+            }else {
+                tail.next = right;
+                right = right.next;
+            }
+            tail = tail.next;
+        }
+        if (left!=null){
+            tail.next = left;
+            left = left.next;
+        }
+        if (right!=null){
+            tail.next = right;
+            right = right.next;
+        }
+
+        return dummyHead.next;
+
     }
 
 }
