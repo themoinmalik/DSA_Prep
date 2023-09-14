@@ -17,10 +17,8 @@ class Test {
     }
 
     class Node {
-
         int data;
         Node next;
-
         public Node(int data) {
             this.data = data;
         }
@@ -133,7 +131,6 @@ class Test {
             count++;
             node = node.next;
         };
-
         Node node1 = head;
 
         for (int i =0;i<count-size+1;i++) {
@@ -147,7 +144,6 @@ class Test {
     public void delDup() {
 
         Node node = head;
-
         HashSet<Integer> set = new HashSet<>();
         Node prev = null;
 
@@ -163,7 +159,6 @@ class Test {
             node = node.next;
 
         }
-
     }
 
     public void display() {
@@ -177,9 +172,7 @@ class Test {
         System.out.println("END");
     }
 
-
 }
-
 
 class Main {
 
