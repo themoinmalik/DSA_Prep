@@ -1,19 +1,0 @@
-
-{
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯İ‘€üÿÿÿÿ8ˆ”ß„’1
-{
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(©÷œ°ıÿÿÿÿ8”ß„’1
-v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ã¦İ·8”ß„’1
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Šî…Ìıÿÿÿÿ8™”ß„’1
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Ğÿ»Ë8Ê•ß„’1
-T
-java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Ğ•ß„’1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(›²·îúÿÿÿÿ8ã•ß„’1
-U	java:S106"9Replace this use of System.out or System.err by a logger.( èšÌ8ç•ß„’1
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ìï«8î•ß„’1
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ìï«8ñ•ß„’1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(©Àµ†ùÿÿÿÿ8ö•ß„’1
-Z	java:S106""9Replace this use of System.out or System.err by a logger.(û¿¦êşÿÿÿÿ8û•ß„’1
-v
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ÑóÃ«úÿÿÿÿ8€–ß„’1
