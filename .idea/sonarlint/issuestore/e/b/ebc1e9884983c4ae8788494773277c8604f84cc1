@@ -1,11 +1,0 @@
-
-t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯¿Ÿôþÿÿÿÿ
-t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").( ‹¥Ûøÿÿÿÿ
-E
-java:S1197
-"*Move the array designators [] to the type.(¡þÏÖøÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ¢Ûßüÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(À¦…ˆþÿÿÿÿ
-N	java:S106!"9Replace this use of System.out or System.err by a logger.(ÿÿ×È
