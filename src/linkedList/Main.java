@@ -17,7 +17,6 @@ public class Main {
 //        list.delete(1);
 //        list.display();
 
-
 //        list.reverseLL();
         list.reverseList();
         list.display();
@@ -53,10 +52,7 @@ public class Main {
         l2.insertLast(20);
         l2.insert(34, 3);
 
-
         AddTwoLL addTwoLL = new AddTwoLL();
-
-
 
     }
 }

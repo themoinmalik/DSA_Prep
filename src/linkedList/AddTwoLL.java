@@ -7,8 +7,6 @@ public class AddTwoLL {
 
         Node dummy = new Node();
         Node temp = dummy;
-
-
         while (l1 != null && l2 != null) {
 
             int sum = 0;
